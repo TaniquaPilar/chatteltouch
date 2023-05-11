@@ -1,0 +1,417 @@
+*{box-sizing: border-box}
+
+/*styling the container*/
+.carousel-slide{
+  /*max-width: 1000px;*/
+  max-width: 100%;
+  max-height:;
+  height: ;
+  position: relative;
+  margin:auto;
+}
+
+/*styling the images.
+Make images invisible by default*/
+.carousel-inner{
+  display: grid;
+}
+
+/*Styling the Buttons. forward and back buttons*/
+.back, .forward{
+  cursor: pointer;
+  position:absolute;
+  top: 25%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+/*Place forward button to the right*/
+.forward{
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+/*When the user hovers, add a black background with
+little opacity*/
+.back:hover, .forward:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*Caption Information*/
+.caption{
+  color: #e3e3e3;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 14px;
+  position:absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+/*styling the dots. The circles or bullets or
+indicators*/
+.dots{
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.enable, .dots: hover{
+  background-color: #717161;
+}
+
+/*fade animation*/
+.fade{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.4s;
+  animation-name: fade;
+  animation-duration: 1.4s;
+  }
+
+  @-webkit-keyframes fade{
+    from{ opacity: 0.5}
+    to{ opacity: 0.2}
+  }
+
+  @keyframes fade{
+    from{ opacity: 0.5}
+    to{ opacity: 0.2}
+  }
+
+  @media screen and (min-width: 1200px)
+  .carousel-slide{
+  margin:0 29px;
+  /*flex: 25%;*/
+  max-width:15%;
+  }
+
+  /*Responsive layout-makes a two column layout instead of one column*/
+  @media screen and (min-width: 600px)
+  .carousel-slide{
+  margin: 0 29px;
+  /*flex: 50%*/
+  max-width: 50%
+  }
+  /*@media screen and(min-width: 576px){
+    .carousel-slide{
+      height: 45vh;
+  }
+
+  @media screen and(min-width: 768px){
+    .carousel-slide{
+      height: 55vh;
+  }
+
+  @media screen and(min-width: 992px){
+    .carousel-slide{
+      height: 65vh;
+  }*/
+
+  #brand-promise{
+  /*  border: 2px solid black;*/
+    text-align:center;
+    letter-spacing: 3px;
+    font-style: italic;
+    margin: 0px 0px 50px 0px;
+    color:#36454f;
+  }
+
+#head-promise{
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 0px 0px 50px 0px;
+  background-color: ;
+}
+
+#head-promise2{
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 0px 0px 50px 0px;
+  background-color: ;
+}
+
+  .avatar{
+    width: 200px;
+    height: 200px;
+  }
+
+.avatar-spotlight{
+  width: 200px;
+  height: 200px;
+  opacity:0.5;
+}
+
+.avatar-spotlight:hover{
+  opacity: 1.0;
+}
+
+  .content{
+    text-align: center;
+  }
+
+
+  .card{
+    display: flex;
+    margin: 10px 0px 50px 0px;
+    justify-content: space-between;
+  }
+
+/*Place text in image*/
+  .card1{
+    position: relative;
+    text-align: center;
+    color:black;
+  }
+
+.center-caption{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+#header1{
+  width: auto;
+  height: 200px;
+  border: 2px solid lightgrey;
+  background-image: url("Images/Jesse_Coffee_Table_NEW_1__63497.jpg");
+  background-size: cover;
+  margin:10px 0px 50px 0px;
+}
+
+.header-content{
+border: 0px solid black;
+width:1000px;
+height: 300px;
+margin:50px 0px 0px 0px;
+color: black;
+text-shadow: 0px 1px red;
+font-size: 1.05em;
+line-height: 0.75;
+/*background-image:url("Images/collov-home-design-H-1j_s0dhCw-unsplash.jpg");*/
+transition: all 0.25s ease-in-out;
+}
+
+.preview-btn{
+margin: 20px 0px 0px 0px ;
+}
+
+.btn{
+width: 200px;
+padding:15px 0px 15px 0px;
+border: 1px solid lightgrey;
+border-radius:10px;
+}
+
+/*Start Sale.html Styling. */
+/*Container margin, max-width, position and media*/
+.container-sale{
+margin: 0px auto;
+max-width: 1440px;
+position: relative;
+}
+
+@media (min-width: 414px)
+.container-sale{
+width: calc(100%-80px);
+}
+
+/*grid--container margin, width and media*/
+@media (min-width: 1200px)
+.grid-wrapper{
+margin: 0px -29px;
+}
+
+/*collection-grid display, width*/
+/*  @media screen and(min-width: 600px)
+.collection-grid{
+width: calc(50%-58px)
+}
+
+@media screen and (min-width:1200px)
+.collection-grid{
+margin: 0 29px;
+width: calc(25%-58px)
+}*/
+
+/*  @media(min-width: 1200px)
+.collection-grid{
+padding-bottom: 60px;
+}
+
+.collection-grid{
+align-items: stretch;
+justify-content: start;
+width: 100%;
+flex-wrap: wrap;
+display: flex;
+}
+
+
+
+
+.collection-grid{
+width: 100%;
+display: block;
+vertical-align: baseline;
+padding: 0;
+border:0;
+box-sizing: border-box;
+}*/
+
+/*collection-grid-item*/
+/*  @media screen and (min-width:1200px)
+.collection-grid-item{
+margin: 0 29px;
+width: calc(25%-58px)
+}
+
+
+.collection-grid-item{
+text-align: center;
+width: 100%;
+} */
+
+.collection-grid{
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+
+/*Create one column*/
+.collection-grid-item{
+flex: 100%;
+max-width: 100%;
+text-align: center;
+
+}
+
+/*Responsive layout-makes a four column layout instead of two column*/
+@media screen and (min-width: 1200px)
+.collection-grid-item{
+margin:0 29px;
+flex: 25%;
+max-width:25%;
+}
+
+/*Responsive layout-makes a two column layout instead of one column*/
+@media screen and (min-width: 600px)
+.collection-grid-item{
+margin: 0 29px;
+flex: 50%
+max-width: 50%
+}
+
+
+
+/*product-card*/
+.product-card{
+position: relative;
+padding-bottom: 29px;
+}
+
+/*Relative*/
+.relative{
+position: relative;
+}
+
+.discount-line{
+text-decoration: line-through;
+}
+
+
+.product-card-cta-btn{
+height: 32px;
+margin-top: 13px;
+min-width: unset;
+padding: 5px 11px;
+text-align: center;
+background-color: #fff;
+border: 3px solid #d8d8d8;
+color: #000;
+transition: all 300ms;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+a{
+
+  text-decoration: none;
+  color:inherit;
+}
+
+
+font-size: 12px;
+line-height: 16px;
+font-weight: bold;
+letter-spacing: 0.2em;
+opacity: 1;
+text-transform: uppercase;
+}
+
+/* Product Description*/
+
+body{
+  text-align:center;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0px 50px 0px;
+}
+
+.column1{
+  flex: 60%;
+  background-color: #ebfafe;
+  padding:;
+}
+
+
+.column2{
+  flex: 40%;
+  background-color: #ebfafe;
+  color: black;
+  padding-left:;
+  padding-right:;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  padding:#;
+}
+
+.column2 .loc-btn{
+  position: relative;
+  top: ;
+  left: ;
+  /*transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);*/
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction:column;
+  }
+
+  *{
+    box-sizing:border-box;
+  }

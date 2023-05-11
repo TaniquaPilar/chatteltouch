@@ -1,0 +1,26 @@
+<?php include 'sendemail.php'; ?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>html form data to email</title>
+  </head>
+  <body>
+    <!--alert messages start-->
+    <?php echo $alert; ?>
+    <!--alert messages end-->
+    <center>
+        <form class="contact" action="" method="post"><br><br>
+          <input type="text" name="name" class="text-box" placeholder="Your Name" required><br><br>
+          <input type="email" name="email" class="text-box" placeholder="Your Email" required><br><br>
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br><br>
+          <input type="submit" name="submit" class="send-btn" value="Submit">
+        </form>
+ <center>
+ <!--contact section end-->
+ <script type="text/javascript">
+ if(window.history.replaceState){
+   window.history.replaceState(null, null, window.location.href);
+ }
+ </script>
+</body>
+</html>
