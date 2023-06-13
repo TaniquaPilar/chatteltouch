@@ -5,14 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu</title>
     <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="style.css"
-    />
+
     <!-- styles -->
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="navbar.css" />
   </head>
   <body>
+    
+    <button class="sidebar-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="header">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <button class="close-btn"><i class="fas fa-times"></i></button>
+        <img src="" class="logo" alt="" />
+        <!--<button class="close-btn"><i class="fas fa-times"></i></button>-->
+      </div>
+      <!-- links -->
+      <ul class="links no-bullets">
+        <li>
+          <a href="index.html">home</a>
+        </li>
+        <li>
+          <a href="how-it-works.html">how it works</a>
+        </li>
+        <li>
+          <a href="mail.html">shop</a>
+        </li>
+        <li>
+          <a href="product.html">photos + videos</a>
+        </li>
+      </ul>
+      <!-- social media -->
+      <ul class="social-icons no-bullets">
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/chattelboard/">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <!--<li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>-->
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </aside>
+<!--End of navbar-->
     <section class="menu">
       <!-- title -->
       <div class="title">
@@ -84,7 +138,75 @@
     <div class="btn-container">
       <button class="loc-btn">See Location</button>
     </div>
+
+    <!--Footer-->
+<div id= "footer-fix">
+  <footer class= "footer">
+    <div class= "footer_inner m-inline">
+      <!--<div class= "footer_email w-100">
+        <p>Always Peek the Drop</p>
+        <div class= "footer_email-container">
+          <form class="footer_email-text"></form>
+        </div>
+      </div>-->
+      <!--Footer Middle-->
+      <div class= "footer_middle">
+        <div class="footer_stamp w-fit">
+          <img class= "logo" src= "Images/conut.jpg" />
+        </div>
+        <p> Cane Garden, St. Andrew</p>
+      </div>
+
+      <!--Footer Links-->
+      <div class= "footer_links">
+        <ul class= "footer_links-list no-bullets">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="how-it-works.html">how it works</a>
+          </li>
+          <li>
+            <a href="mail.html"> shop</a>
+          </li>
+        </ul>
+
+        <ul class= "footer_links-list no-bullets">
+          <li>
+            <a href="index.html">our story</a>
+          </li>
+          <li>
+            <a href="about.html">contact us</a>
+          </li>
+          <li>
+            <a href=".html"></a>
+          </li>
+        </ul>
+
+        <ul class= "footer_links-social no-bullets">
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/chattelboard/">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+<!--Footer End-->
     <!-- javascript -->
+    <script src="navbar.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
