@@ -1,10 +1,73 @@
 <?php include 'sendemail.php'; ?>
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8" name="viewport" content="width= device-width, initial-scale= 1">
+    <link rel="stylesheet" href="index3.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+
     <title>html form data to email</title>
   </head>
   <body>
+    <button class="sidebar-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="header">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <button class="close-btn"><i class="fas fa-times"></i></button>
+        <img src="" class="logo" alt="" />
+        <!--<button class="close-btn"><i class="fas fa-times"></i></button>-->
+      </div>
+      <!-- links -->
+      <ul class="links no-bullets">
+        <li>
+          <a href="index.html">home</a>
+        </li>
+        <li>
+          <a href="how-it-works.html">how it works</a>
+        </li>
+        <li>
+          <a href="mail.html">shop</a>
+        </li>
+        <li>
+          <a href="product.html">photos + videos</a>
+        </li>
+      </ul>
+      <!-- social media -->
+      <ul class="social-icons no-bullets">
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/chattelboard/">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <!--<li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>-->
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </aside>
+<!--End of navbar-->
+
     <!--alert messages start-->
     <?php echo $alert; ?>
     <!--alert messages end-->
@@ -17,6 +80,13 @@
         </form>
  <center>
  <!--contact section end-->
+
+
+
+ <script src="nav.js"></script>
+ <script src="index3.js"></script>
+ <script src=""></script>
+
  <script type="text/javascript">
  if(window.history.replaceState){
    window.history.replaceState(null, null, window.location.href);
