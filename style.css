@@ -280,22 +280,4 @@ Menu
   text-align: center;
 }
 
-/*Logo Propertiess*/
 
-.logophoto {
-  object-fit: cover;
-  height: 100px;
-  border: 0.25rem solid var(--clr-gold);
-  border-radius: var(--radius);
-}
-
-@media screen and (min-width: 768px) {
-  .logophoto {
-    height: 175px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .logophoto {
-    height: 150px;
-  }
-}
