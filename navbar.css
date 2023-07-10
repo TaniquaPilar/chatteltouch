@@ -269,3 +269,22 @@ w-fit{
 
 }
 }
+
+
+.photo {
+  object-fit: cover;
+  height: 200px;
+  border: 0.25rem solid var(--clr-gold);
+  border-radius: var(--radius);
+}
+
+@media screen and (min-width: 768px) {
+  .photo {
+    height: 175px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .photo {
+    height: 150px;
+  }
+}
