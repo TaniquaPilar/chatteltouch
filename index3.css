@@ -655,7 +655,7 @@ Questions
 
 /* Logo Photo Properties*/
 
-.photo {
+.logophoto {
   object-fit: cover;
   height: 200px;
   border: 0.25rem solid var(--clr-gold);
@@ -663,12 +663,12 @@ Questions
 }
 
 @media screen and (min-width: 768px) {
-  .photo {
+  .logophoto {
     height: 175px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .photo {
+  .logophoto {
     height: 150px;
   }
 }
