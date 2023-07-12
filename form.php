@@ -1,7 +1,7 @@
 <?php
-$email=$_POST["emailaddress"];
-$name=$_POST["fullname"]
-$to="chattelboards@gmail.com";
+$email=$_POST["email"];
+$name=$_POST["name"]
+$to="chattelenterprise@gmail.com";
 $subject="New Email Address for Mailing List";
 $headers="From:$email\n";
 $message="A visitor to your site has sent the following email
@@ -12,7 +12,7 @@ $user="$email";
 $usersubject="Thank You";
 $userheaders="From:chattelboards@gmail.com/n";
 $usermessage="Thank you for subscribing to our mailing list.";
-//mail($to, $subject, $message, $headers);
+mail($to, $subject, $message, $headers);
 //mail($user, $usersubject, $usermessage, $userheaders);
 
 require "vendor/autoload.php";
@@ -31,8 +31,8 @@ $mail->Host = "smtp.gmail.com";
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
 
-$mail->Username = "chattelboards@gmail.com";
-$mail->Password = "";
+$mail->Username = "chattelenterprise@gmail.com";
+$mail->Password = "riqldgmlzrzerykt";
 
 $mail->setFrom($email, $name);
 $mail->addAddress("dave@example.com", "Dave");
