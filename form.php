@@ -36,7 +36,7 @@ $mail->Username = "chattelenterprise@gmail.com";
 $mail->Password = "riqldgmlzrzerykt";
 
 $mail->setFrom($email, $name);
-$mail->addAddress("dave@example.com", "Dave");
+$mail->addAddress("thompson.p.taniqua@gmail.com", "Dave");
 
 $mail->Subject = $subject;
 $mail->Body = $message;
