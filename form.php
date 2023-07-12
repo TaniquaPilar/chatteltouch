@@ -43,6 +43,6 @@ $mail->Body = $message;
 
 $mail->send();
 
-header("Location: mail.html")
+header("Location: index.html")
 }
 ?>
