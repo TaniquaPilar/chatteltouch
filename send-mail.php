@@ -34,3 +34,4 @@ $mail->Body = $email;
 $mail->send();
 
 header("Location: sent.html");
+?>
