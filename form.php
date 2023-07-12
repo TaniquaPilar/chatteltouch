@@ -1,4 +1,5 @@
 <?php
+if (isset($_POST["submit"])){
 $email=$_POST["email"];
 $name=$_POST["name"]
 $to="chattelenterprise@gmail.com";
@@ -43,4 +44,5 @@ $mail->Body = $message;
 $mail->send();
 
 header("Location: mail.html")
+}
 ?>
