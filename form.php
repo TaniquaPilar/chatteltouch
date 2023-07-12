@@ -42,5 +42,5 @@ $mail->Body = $message;
 
 $mail->send();
 
-header("Location: sent.html")
+header("Location: mail.html")
 ?>
