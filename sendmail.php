@@ -25,7 +25,7 @@ if(isset($_POST['submit'])){
     $mail->Body = "<h3>Name : $name <br>Email: $email <br>Message : $message</h3>";
     $mail->send();
     $alert = '<div class="alert-success">
-                 <span>Message Sent! Thank you for contacting us.</span>
+                 <span>Message Sent! Thank you for joining the community.</span>
                 </div>';
   } catch (Exception $e){
     $alert = '<div class="alert-error">
