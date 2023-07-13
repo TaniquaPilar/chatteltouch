@@ -19,7 +19,7 @@ $mail->SMTPAuth = true;
 
 $mail->Host = "smtp.gmail.com";
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-$mail->Port = 587;
+$mail->Port = 465;
 
 $mail->Username = "chattelenterprise@gmail.com";
 $mail->Password = "riqldgmlzrzerykt";
