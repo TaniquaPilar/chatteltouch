@@ -689,6 +689,13 @@ Questions
   transition: var(--transition);
 }
 
+.uppercase{
+  text-transform: uppercase;
+}
+
+.capitaliseu{
+  text-transform: capitalize;
+}
 
 .underline {
   width: 5rem;
