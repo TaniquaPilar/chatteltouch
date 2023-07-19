@@ -433,6 +433,20 @@ body{
 
 }
 
+
+.column3{
+  flex: 50%;
+  background-color: #fef4eb;
+  color: black;
+  padding-left:;
+  padding-right:;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  padding:#;
+  text-align: center;
+
+}
+
 .column2 .loc-btn{
   position: relative;
   top: ;
