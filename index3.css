@@ -399,6 +399,13 @@ body{
   gap: ;
 }
 
+.row1{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 10px 50px 10px;
+  gap: ;
+}
+
 .column1{
   flex: 50%;
   background-color: #ebfafe;
