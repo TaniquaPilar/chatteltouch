@@ -399,7 +399,7 @@ body{
   gap: ;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   width: 90vw;
-  margin: 30px auto;
+  margin: 0px auto;
   max-width: 1170px;
 }
 
@@ -410,7 +410,7 @@ body{
   gap: ;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   width: 90vw;
-  margin: 0 auto;
+  margin: 0px auto;
   max-width: 1170px;
 }
 
