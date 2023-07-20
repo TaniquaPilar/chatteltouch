@@ -405,6 +405,7 @@ body{
   flex-wrap: wrap;
   margin: 30px 10px 50px 10px;
   gap: ;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .column1{
@@ -417,6 +418,7 @@ body{
   padding-bottom: 70px;
   padding:#;
   text-align: center;
+
 }
 
 .column0{
@@ -443,6 +445,9 @@ body{
   padding-bottom: 70px;
   padding:#;
   text-align: center;
+  font-size: 1.08em;
+  font-family: "Pissons", sans-serif;
+  font-weight: 300;
 
 }
 
@@ -457,6 +462,9 @@ body{
   padding-bottom: 70px;
   padding:#;
   text-align: center;
+  font-size: 1.08em;
+  font-family: "Pissons", sans-serif;
+  font-weight: 300;
 
 }
 
