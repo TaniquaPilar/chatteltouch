@@ -399,7 +399,7 @@ body{
   gap: ;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   width: 90vw;
-  margin: 80px auto;
+  margin: 40px auto;
   max-width: 1170px;
 }
 
@@ -422,7 +422,7 @@ body{
   padding-right:;
   padding-top: 30px;
   padding-bottom: 70px;
-  padding:#;
+  padding:;
   text-align: center;
 
 }
@@ -435,7 +435,7 @@ body{
   padding-right:;
   padding-top: 30px;
   padding-bottom: 70px;
-  padding:#;
+  padding:;
   text-align: center;
 }
 
@@ -449,7 +449,7 @@ body{
   padding-right:;
   padding-top: 30px;
   padding-bottom: 70px;
-  padding:#;
+  padding:;
   text-align: center;
   font-size: 1.04em;
   font-family: "Pissons", sans-serif;
@@ -466,11 +466,11 @@ body{
   padding-right:;
   padding-top: 30px;
   padding-bottom: 70px;
-  padding:#;
+  padding:;
   text-align: center;
   font-size: 1.04em;
   font-family: "Pissons", sans-serif;
-  font-weight: 300;
+  font-weight: 100;
 
 }
 
