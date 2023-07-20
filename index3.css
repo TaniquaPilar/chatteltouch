@@ -478,7 +478,7 @@ body{
 
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 900px) {
   .row .row1{
     flex-direction:column;
     gap:;
