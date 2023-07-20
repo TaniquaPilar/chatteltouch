@@ -399,7 +399,7 @@ body{
   gap: ;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   width: 90vw;
-  margin: 0 auto;
+  
   max-width: 1170px;
 }
 
@@ -410,7 +410,7 @@ body{
   gap: ;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   width: 90vw;
-  margin: 0 auto;
+  
   max-width: 1170px;
 }
 
@@ -507,10 +507,11 @@ body{
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
-@media screen and (max-width: 700px) {
-  .row {
+@media screen and (max-width: 992px) {
+  .row .row1{
     flex-direction:column;
     gap:;
+    width: 95vw;
   }
 
   *{
