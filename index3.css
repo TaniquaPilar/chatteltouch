@@ -453,7 +453,7 @@ body{
   text-align: center;
   font-size: 1.04em;
   font-family: "Pissons", sans-serif;
-  font-weight: 300;
+  font-weight: 100;
 
 }
 
@@ -474,37 +474,8 @@ body{
 
 }
 
-.column2 .loc-btn{
-  position: relative;
-  top: ;
-  left: ;
-  /*transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);*/
-  background-color: orange;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-}
 
-.column1 .loc-btn{
-  position: relative;
-  top: ;
-  left: ;
-  /*transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);*/
-  background-color: orange;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-}
+
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media screen and (max-width: 992px) {
