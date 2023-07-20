@@ -395,22 +395,22 @@ body{
 .row{
   display: flex;
   flex-wrap: wrap;
-  margin: 30px 0px 50px 0px;
+  /*margin: 30px 0px 50px 0px;*/
   gap: ;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   width: 90vw;
-  
+  margin: 0 auto;
   max-width: 1170px;
 }
 
 .row1{
   display: flex;
   flex-wrap: wrap;
-  margin: 30px 10px 50px 10px;
+  /*margin: 30px 10px 50px 10px;*/
   gap: ;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   width: 90vw;
-  
+  margin: 0 auto;
   max-width: 1170px;
 }
 
