@@ -1,13 +1,14 @@
 const menu = [
   {
     id: 1,
-    title: "buttermilk pancakes",
-    category: "light",
-    price: 15.99,
+    title: "Wood Coffee Table",
+    category: "dark",
+    price: $300,
     img: "Images/seaside_hammock.jpg",
-    desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+    desc: `The coffee table features a dark wood that brings warmth into your sitting room 
+    for family get togethers or a quiet moment alone. `,
   },
-  {
+ /* {
     id: 2,
     title: "diner double",
     category: "dark",
@@ -78,7 +79,7 @@ const menu = [
     price: 22.99,
     img: "./images/item-10.jpeg",
     desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
-  },
+  },*/
 ];
 // get parent element
 const sectionCenter = document.querySelector(".section-center");
