@@ -1,12 +1,14 @@
 const menu = [
   {
     id: 1,
-    title: "Wood Coffee Table",
+    title: "TV armoire with Rattan Accents",
     category: "dark",
-    price: $300,
+    price: $700,
     img: "Images/seaside_hammock.jpg",
-    desc: `The coffee table features a dark wood that brings warmth into your sitting room 
-    for family get togethers or a quiet moment alone. `,
+    desc: `This fabulous TV armoire features rattan accents on drawers and doors. Perfect for 
+    Mothers, Hosts who love neat spaces and adding warmth with brown furniture. 
+    Dimensions(inches): 78in(height) x 44in(width) x 25in(depth) 
+    Dimensions(feet): 6-6ft(height) x 3-8ft(width) x 2-1ft(depth)`,
   },
  /* {
     id: 2,
