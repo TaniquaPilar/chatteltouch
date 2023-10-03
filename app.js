@@ -4,7 +4,7 @@ const menu = [
     title: "TV armoire with Rattan Accents",
     category: "dark",
     price: $700,
-    img: "Images/seaside_hammock.jpg",
+    img: "Images/tvarmoireosei.jpg",
     desc: `This fabulous TV armoire features rattan accents on drawers and doors. Perfect for 
     Mothers, Hosts who love neat spaces and adding warmth with brown furniture. 
     Dimensions(inches): 78in(height) x 44in(width) x 25in(depth) 
