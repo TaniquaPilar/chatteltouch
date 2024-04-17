@@ -697,7 +697,8 @@ Questions
 
 
 .filter-btn {
-  background: transparent;
+  background-color: #fef4eb;
+  background: ;
   border-color:#c59d5f ;
   font-size: 1rem;
   text-transform: capitalize;
